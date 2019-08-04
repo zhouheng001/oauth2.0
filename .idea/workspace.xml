@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cc91577-a660-4259-be18-99e10c18c5c4" name="Default Changelist" comment="oauth2.0开发接口示例">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_adsense_v1_4_rev10_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_java6_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_jetty_1_18_0_rc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdSenseSample.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adsense-cmdline-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instructions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/AdSenseSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/CollateReportData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GenerateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GenerateReportWithPaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GenerateSavedReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAccountTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAccounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAdClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAdClientsForAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAdUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAdUnitsForCustomChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllCustomChannels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllCustomChannelsForAdUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllDimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllMetrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllSavedAdStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllSavedReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllUrlChannels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/HandleAccountErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/client_secrets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/client_secrets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/AdSenseSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/CollateReportData$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/CollateReportData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GenerateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GenerateReportWithPaging.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GenerateSavedReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAccountTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllAccounts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllAdClients.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllAdClientsForAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllAdUnits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllAdUnitsForCustomChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllAlerts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllCustomChannels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllCustomChannelsForAdUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllDimensions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllMetrics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllSavedAdStyles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllSavedReports.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/GetAllUrlChannels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/google/api/services/samples/adsense/cmdline/HandleAccountErrors.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/AdSenseSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar!/com/google/api/client/util/store/FileDataStoreFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAccounts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/client_secrets.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GenerateReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url</find>
+      <find>https://www.googleapis.com</find>
+      <find>Credential</find>
+      <find>auth2</find>
+      <find>GenerateReport</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\zhouheng-os\Desktop\googleads-adsense-examples-master\java\v1.x</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Example for the AdSense Management API v1.4 using JSON." type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adsense-cmdline-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="v1.x" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AdSenseSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.api.services.samples.adsense.cmdline.AdSenseSample" />
+      <module name="adsense-cmdline-sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.google.api.services.samples.adsense.cmdline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AdSenseSample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cc91577-a660-4259-be18-99e10c18c5c4" name="Default Changelist" comment="" />
+      <created>1564727470734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564727470734</updated>
+      <workItem from="1564727473418" duration="1966000" />
+      <workItem from="1564733613992" duration="3000" />
+      <workItem from="1564740650568" duration="3074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5043000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43656716" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/AdSenseSample.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GenerateSavedReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAdClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/CollateReportData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllUrlChannels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/api-client/google-api-client/1.18.0-rc/google-api-client-1.18.0-rc.jar!/com/google/api/client/googleapis/javanet/GoogleNetHttpTransport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/apis/google-api-services-adsense/v1.4-rev10-1.18.0-rc/google-api-services-adsense-v1.4-rev10-1.18.0-rc.jar!/com/google/api/services/adsense/AdSense.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="969" column="23" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
+          <folding>
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar!/com/google/api/client/http/javanet/NetHttpTransport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client-jackson2/1.18.0-rc/google-http-client-jackson2-1.18.0-rc.jar!/com/google/api/client/json/jackson2/JacksonFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar!/com/google/api/client/util/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar!/com/google/api/client/util/Maps.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar!/com/google/api/client/util/store/AbstractDataStoreFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GetAllAccounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/GenerateReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar!/com/google/api/client/util/store/FileDataStoreFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/api/services/samples/adsense/cmdline/AdSenseSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
